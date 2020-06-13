@@ -348,7 +348,7 @@ ul {
 }
 
 
-.footer__column--content-copyright {
+.footer__column_content-copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
