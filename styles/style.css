@@ -67,7 +67,7 @@
   max-width: 388px;
 }
 
-.link {
+.header__link {
   color: #2f80ed;
   text-decoration: none;
   font-size: 18px;
@@ -75,12 +75,12 @@
   z-index: 1;
 }
 
-.link::after {
+.header__link::after {
   content: "\2192";
   margin-left: 5px;
 }
 
-.main-illustration {
+.header__main-illustration {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -89,7 +89,7 @@
   z-index: 2;
 }
 
-.square-pic {
+.header__square-pic {
   width: 568px;
   height: 568px;
   background-color: #2f80ed;
@@ -117,7 +117,7 @@ ul {
   width: 175px;
 }
 
-.two-columns_brief {
+.two-columns--brief {
   color: #2f80ed;
   text-decoration: none;
   font-size: 18px;
@@ -131,7 +131,7 @@ ul {
   font-weight: bold;
 }
 
-.two-columns_paragraph {
+.two-columns--paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: 500;
@@ -142,7 +142,7 @@ ul {
   padding: 30px 0;
 }
 
-.main-text {
+.two-columns--main-text {
   width: 80%;
   min-width: 784px;
 }
@@ -212,9 +212,9 @@ ul {
 }
 
 
-/* Feinman */
+/* Feynman */
 
-.feinman {
+.feynman {
   height: 790px;
   background-color: #f2f2f2;
   margin-top: 100px;
@@ -224,7 +224,7 @@ ul {
   justify-content: center;
 }
 
-.feinman__img {
+.feynman__img {
   width: 867px;
   height: 637px;
   position: absolute;
@@ -232,7 +232,7 @@ ul {
   left: 0;
 }
 
-.feinman__title {
+.feynman__title {
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
@@ -242,7 +242,7 @@ ul {
   z-index: 25;
 }
 
-.feinman__subtitle {
+.feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -251,7 +251,7 @@ ul {
   z-index: 27;
 }
 
-.feinman__link {
+.feynman__link {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -260,14 +260,15 @@ ul {
   right: 48px;
 }
 
-.feinman__link__a {
+.feynman__link__a {
   text-decoration: none;
   color: black;
 }
 
-.feinman__link::after {
+.feynman__link::after {
   content: "\2192";
   margin-left: 10px;
+  color: black;
 }
 
 
@@ -365,7 +366,7 @@ ul {
   padding: 20px 0 16px;
 }
 
-.icon__logo {
+.footer__logo {
   margin-right: 10px;
   width: 16px;
   height: 16px;
