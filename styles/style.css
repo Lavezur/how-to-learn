@@ -96,7 +96,6 @@
   position: absolute;
   top: 64px;
   right: 0;
-  z-index: 1;
 }
 
 
@@ -285,7 +284,6 @@ ul {
   width: 200px;
   margin-top: 80px;
   color: white;
-  z-index: 15;
 }
 
 .table_theme_dark {
