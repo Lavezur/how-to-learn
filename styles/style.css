@@ -96,6 +96,7 @@
   position: absolute;
   top: 64px;
   right: 0;
+  z-index: 1;
 }
 
 
@@ -283,7 +284,8 @@ ul {
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
-  color: white;
+  color: #ffffff;
+  z-index: 30;
 }
 
 .table_theme_dark {
