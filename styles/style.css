@@ -348,7 +348,7 @@ ul {
 }
 
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -369,7 +369,7 @@ ul {
   padding: 20px 0 16px;
 }
 
-.footer__logo {
+.footer__icon {
   margin-right: 10px;
   width: 16px;
   height: 16px;
