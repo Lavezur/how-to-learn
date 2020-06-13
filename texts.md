@@ -76,3 +76,19 @@ ___________________________
 Наставники
 Соцсети
 
+
+.feinman {
+  background-color: #f2f2f2;
+  height: 790px;
+  display: flex;
+  top: 100px;
+}
+
+.title {
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+}
