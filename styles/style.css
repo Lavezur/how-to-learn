@@ -153,29 +153,30 @@ ul {
 /* DIGITS */
 
 .section-title {
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 100px auto 20px;
   width: 60%;
-  margin: 0 auto;
   text-align: center;
 }
 
-.section__title {
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bolder;
-  margin: 0 0 20px 0;
+.section-title--theme_dark {
+  color: #ffffff;
+  margin-top: 90px;
 }
 
 .section-subtitle {
-  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
   margin: 0 auto;
+  width: 60%;
   text-align: center;
 }
 
-.section__subtitle {
-  line-height: 24px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 0;
+.section-subtitle--theme_dark {
+  color: #ffffff;
 }
 
 /* таблица__мейн__digits:( */
@@ -261,12 +262,10 @@ ul {
   position: absolute;
   top: 50%;
   right: 48px;
-}
-
-.feynman__link__a {
   text-decoration: none;
   color: black;
 }
+
 
 .feynman__link::after {
   content: "\2192";
@@ -280,18 +279,6 @@ ul {
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
-}
-
-.kaufman__section-title_theme--dark {
-  padding-top: 90px;
-  color: white;
-  z-index: 15;
-}
-
-.kaufman__section-subtitle_theme--dark {
-  color: white;
-  line-height: 34px;
-  z-index: 15;
 }
 
 .table__cell_theme_dark {
