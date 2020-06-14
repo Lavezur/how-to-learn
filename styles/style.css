@@ -89,15 +89,7 @@
   z-index: 2;
 }
 
-.header__square-pic {
-  width: 568px;
-  height: 568px;
-  background-color: #2f80ed;
-  position: absolute;
-  top: 64px;
-  right: 0;
-}
-
+/* тут был квадрат */
 
 /* MAIN PART */
 .description {
@@ -280,12 +272,7 @@ ul {
   position: relative;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  margin-top: 80px;
-  z-index: 30;
-  color: #ffffff;
-}
+/* тут был theme_dark */
 
 .table_theme_dark {
   padding-bottom: 90px;
@@ -366,4 +353,21 @@ ul {
 .footer__column-link {
   color: white;
   text-decoration: none;
+}
+
+
+.header__square-pic {
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+  z-index: 30;
+  color: #ffffff;
 }
