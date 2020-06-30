@@ -1,5 +1,5 @@
 @import url("../vendor/normalize.css");
-@import url("../blocks/ footer/footer.css");
+@import url("../blocks/footer/footer.css");
 @import url("../blocks/description/description.css");
 @import url("../blocks/digits/digits.css");
 @import url("../blocks/feynman/feynman.css");
@@ -10,8 +10,6 @@
 @import url("../blocks/resources/resources.css");
 @import url("../blocks/techniques/techniques.css");
 @import url("../blocks/video/video.css");
-@import url("../images");
-@import url("../images/images_sprint-2");
 
 
 .page {

@@ -1,5 +1,5 @@
 @import url("../two-columns/__brief/two-columns__brief.css");
-@import url("../two-columns/__main/two-columns__main-text.css");
+@import url("__main/__main-text/two-columns__main-text.css");
 @import url("../two-columns/__span/two-columns__span-accent.css");
 @import url("../two-columns/__paragraph/two-columns__paragraph.css");
 
