@@ -1,8 +1,7 @@
-@import url("../ footer/__author/footer__author.css");
-@import url("../ footer/__column/footer__column.css");
+@import url("__author/footer__author.css");
+@import url("__column/footer__column.css");
 @import url("__social/footer__social.css");
-
-/* footer */
+@import url("../logo/_place/_footer/logo_place_footer.css");
 
 .footer {
   background-color: #1f1f1f;
@@ -12,9 +11,5 @@
   justify-content: flex-start;
 }
 
-.logo_place_footer {
-  width: 183px;
-  height: 35px;
-}
 
 
