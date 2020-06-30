@@ -1,48 +1,10 @@
-/* techniques */
+@import url("../cards/cards.css");
+
 
 .techniques {
   width: 80%;
   margin: 0 auto;
 }
 
-.cards {
-  width: 920px;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  display: flex;
-}
 
-.cards__item {
-  margin-top: 60px;
-  width: 240px;
-  text-align: center;
-  margin-right: 100px;
-}
 
-.cards__item:nth-child(3n + 3) {
-  margin-right: 0;
-}
-
-.cards__image {
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-  margin: 0 40px;
-}
-
-.cards__title {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-  margin: 0 auto;
-  padding-top: 43px;
-}
-
-.cards__subtitle {
-  line-height: 23px;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0 auto;
-  padding-top: 16px;
-}

@@ -1,14 +1,2 @@
-/* video */
-
-.video__iframes {
-  margin:0 0;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: -50px;
-  z-index: 1;
-}
-
-.video__iframe:not(:last-child) {
-  margin-right: 20px;
-}
+@import url("__iframes/video__iframe.css");
+@import url("__iframes/video__iframes.css");
