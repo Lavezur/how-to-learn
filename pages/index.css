@@ -11,6 +11,14 @@
 @import url("../blocks/techniques/techniques.css");
 @import url("../blocks/video/video.css");
 
+@import url("../blocks/rotation/rotation.css");
+@import url("../blocks/cards/cards.css");
+@import url("../blocks/table/table.css");
+@import url("../blocks/two-columns/two-columns.css");
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-subtitle/section-subtitle.css");
+@import url("../blocks/oakley/_two-columns/oakley_two-columns.css");
 
 .page {
   min-width: 1100px;
