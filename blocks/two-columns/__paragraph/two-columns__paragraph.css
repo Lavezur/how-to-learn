@@ -6,3 +6,7 @@
   padding-bottom: 30px;
   margin: 0;
 }
+
+.two-columns__paragraph:nth-child(3n + 3) {
+  padding-bottom: 0;
+}

@@ -1,6 +1,7 @@
-@import url("_two-columns/oakley_two-columns.css");
-
 .oakley {
   background-color: #f2f2f2;
+  margin: 0 auto;
+  padding-top: 160px;
+  display: inline-block;
 }
 
