@@ -1,4 +1,3 @@
-try
-https://lavezur.github.io/how-to-learn
+все еще не прикольно
 
 
